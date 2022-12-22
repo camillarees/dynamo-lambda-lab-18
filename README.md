@@ -1,10 +1,34 @@
 # dynamo-lambda-lab-18
 
-[Deployed Link](https://ex2ad47p42.execute-api.us-west-2.amazonaws.com/Production)
 ![UML](./assets/uml.png)
-![Passing Get Test](./assets/get-test.png)
+![Passing Get All Test](./assets/get-test.png)
+![Passing Get One Test](./assets/get-1-test.png)
 ![Passing Create Test](./assets/create-test.png)
+![Passing Update Test](./assets/update-test.png)
 ![Passing Delete Test](./assets/delete-test.png)
+
+# Lab Questions
+
+1. What is the root URL to your API?
+- [Deployed Link](https://ex2ad47p42.execute-api.us-west-2.amazonaws.com/Production)
+
+1. What are the routes?
+- /people
+- /people/id
+
+2. What inputs do they require?
+- GET: no input for get all, input of id number for get one
+- CREATE: input of new json data
+- UPDATE: input of id number and updated json data
+- DELETE: input of id number
+
+3. What output do they return?
+- GET: get all returns an array of objects, get one returns an object representing one record, by its id number
+- CREATE: inserts a record into the database
+- UPDATE: updates a record in the database and returns an object representing on record by its id number
+- DELETE: returns an empty object
+
+# Process
 
 ## DynamoDB
 1. Create table
@@ -76,3 +100,6 @@
 ## Deploy
 
 In resources, deploy API, stage name production and Deploy, submit deployed link in readme
+
+## Credits and Collaboration:
+Worked with [Kenny Lino]()

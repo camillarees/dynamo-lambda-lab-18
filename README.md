@@ -1,16 +1,21 @@
 # dynamo-lambda-lab-18
 
 ![UML](./assets/uml.png)
+### Passing Get All Test
 ![Passing Get All Test](./assets/get-test.png)
+### Passing Get One Test
 ![Passing Get One Test](./assets/get-1-test.png)
+### Passing Create Test
 ![Passing Create Test](./assets/create-test.png)
+### Passing Update Test
 ![Passing Update Test](./assets/update-test.png)
+### Passing Delete Test
 ![Passing Delete Test](./assets/delete-test.png)
 
 # Lab Questions
 
 1. What is the root URL to your API?
-- [Deployed Link](https://ex2ad47p42.execute-api.us-west-2.amazonaws.com/Production)
+- [Deployed Link](https://ex2ad47p42.execute-api.us-west-2.amazonaws.com/Production/people)
 
 1. What are the routes?
 - /people
@@ -99,7 +104,7 @@
 
 ## Deploy
 
-In resources, deploy API, stage name production and Deploy, submit deployed link in readme
+In resources, deploy API, stage name production and Deploy. Add /people route at the end of the url to get data
 
 ## Credits and Collaboration:
 Worked with [Kenny Lino]()
